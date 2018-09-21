@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
 
+<!--
+Exercise 02_03_01
+Author: Braddock Ghahate
+Date: 09.20.18
+
+MusicalScale.php
+-->
+
 <head>
     <title>Musical Scale</title>
     <meta charset="UTF-50">
@@ -18,6 +26,13 @@ foreach ($musicalScale as $currentNote) {
     $outputString .= " " . $currentNote;
 }
     echo "<p>$outputString</p>";
+    echo "<h2>Formatted Text</h2>";
+    $displayValue = 9.876;
+    echo "<pre>\n";
+    echo "Unformatted text line 1. \r\n";
+    echo "\tUnformatted text line 2. \r\n";
+    echo "\$displayValue = $displayValue";
+    echo "</pre\n>";
 ?>
 </body>
 
