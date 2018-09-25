@@ -10,7 +10,7 @@ PHPEmail.php
 -->
 
 <head>
-    <title>PHP Email 2</title>
+    <title>PHP Email 3</title>
     <meta charset="UTF-50">
     <meta name="viewport" content="initial-scale=1.0">
     <script src="modernizr.custom.65897.js"></script>
@@ -18,7 +18,7 @@ PHPEmail.php
 
 <body>
 
-    <h2>PHP Email 2</h2>
+    <h2>PHP Email 3</h2>
     <?php
     $emailAddresses = array("john.smith@php.test", "mary.smith.mail@php.example", "john.jones@php.invalid", "alan.smithee@test", "jsmith456@example.com","jsmith456@test", "mjones@example", "mjones@example.net", "jane.doe@example.org");
     
@@ -39,7 +39,7 @@ PHPEmail.php
         for ($i = 0; $i < $iLimit; $i++) {
             $currentAddress = $addresses[$i];
             for ($j = $i + 1; $j < $jLimit; $j++) {
-                if (strcasecmp($currentAddress, $addresse[$j]) > 0) {
+                if (strcasecmp($currentAddress, $address[$j]) > 0) {
                     $tempValue = $addresses[$j];
                     $addresses[$j] = $currentAddress;
                     $currentAddress = $tempValue;
