@@ -29,6 +29,7 @@ CompareStrings.php
     }
     /*========================================*/
         else {
+            // backslahes documented for formatting the variables as literal strings
             echo "<p>Either the \$firstString variable or the \$secondString variable does not contain a value so the two strings cannot be compared.</p>";
         }
     
